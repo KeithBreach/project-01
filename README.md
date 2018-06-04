@@ -1,5 +1,8 @@
 # project-01
 Boot camp project 1
+## BIG Question : where does your dollar work the hardest if invested in Austin today?
+^ or do we narrow the scope even futher
+
 -  what zip code has the highest construction currently -->
    by # of permits,
    by dollar amt,
