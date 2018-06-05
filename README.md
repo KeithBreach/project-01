@@ -42,6 +42,7 @@ where does your dollar work the hardest if invested in Austin today?
 
 ## Requirements
 
+
 - python=3.6.5
 - jupyter=1.0.0
 - nb_conda=2.2.1
@@ -53,17 +54,20 @@ where does your dollar work the hardest if invested in Austin today?
 ## Directory Structure
 ```
 .
-├── images 			<- Images for README.md files.
-├── reports			<- IGenerated analysis as HTML, PDF, LaTeX, etc.
-│   ├── figures			<- 
-│   └── logs			<- Generated graphics and figures to be used in reporting.
-├── scripts			<- 
-│   ├── __init__.py
-│   └── quandl_api.py
-└── src
-    └── __init__.py
+├── data		<- Data to besed in this project.
+│   ├── ext
+│   ├── int
+│   └── raw
+├── images		<- Image for `README.md` files.
+├── notebooks		<- Ipython notebook files to be used in this project.
+├── reports		<- Generated analysis as HTML, PDF, LatEx, etc.
+│   ├── figures		<- Generated graphics and figures to be used in reporting.
+│   └── logs		<- Generated log files.
+├── scripts		<- Python scripts codes to be used in this project.
+└── src			<- Source codes to be used in this project.
+   
 ```
-## 1Installation
+## Installation
 
 ## References
 
@@ -71,8 +75,10 @@ where does your dollar work the hardest if invested in Austin today?
 Data collection:
 - [ ] Construction demogaphics; zip codes that will give us the answer to our big question - where to buy in Austin
 - [ ] Housing price demographics, housing price temporal trends: house median prices per zip code, historical housing prices
+- [ ] Household income data.
 - [ ] Rreverse geocoding - by [Karollhttps://developers.google.com/maps/documentation/geocoding/intro]
 - [ ] School quality demographics - by Keith [https://www.greatschools.org/api/request-api-key/]
+
 ## License
 TBA
 
