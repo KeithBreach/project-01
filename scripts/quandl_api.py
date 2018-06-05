@@ -9,7 +9,7 @@ def get_quandl_code(area_category, area_code, indicator_code):
     return f"ZILLOW/{area_category}{area_code}_{indicator_code}"
 
 
-# init. an ZipcodeSearchEngine instance
+# init. an instance of ZipcodeSearchEngine
 search = ZipcodeSearchEngine()
 
 # define quandl api key
@@ -42,6 +42,6 @@ quandl.ApiConfig.api_key = API_KEY
 indicator_code = "ZHVIAH"
 # get quandl code to query
 quandl_code = get_quandl_code(area_category, area_code, indicator_code)
-# get housing in
+# get housing indicator
 data = quandl.get(quandl_code, start_date="1800-01-01", end_date="2018-04-30")
 pprint(data)
