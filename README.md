@@ -36,7 +36,7 @@ where does your dollar work the hardest if invested in Austin today?
 
 ## Methodology
 
-## Dtat
+## Data
 
 ## Report
 
