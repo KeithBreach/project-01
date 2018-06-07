@@ -42,7 +42,6 @@ where does your dollar work the hardest if invested in Austin today?
 
 ## Requirements
 
-
 - python=3.6.5
 - jupyter=1.0.0
 - nb_conda=2.2.1
@@ -68,16 +67,39 @@ where does your dollar work the hardest if invested in Austin today?
    
 ```
 ## Installation
-
-## References
+TBA
 
 ## To Do
-Data collection:
-- [ ] Construction demogaphics; zip codes that will give us the answer to our big question - where to buy in Austin
-- [ ] Housing price demographics, housing price temporal trends: house median prices per zip code, historical housing prices
-- [ ] Household income data.
-- [ ] Rreverse geocoding - by [Karollhttps://developers.google.com/maps/documentation/geocoding/intro]
-- [ ] School quality demographics - by Keith [https://www.greatschools.org/api/request-api-key/]
+
+### Data collection / 06.07
+- [ ] Construction demogaphics; zip codes that will give us the answer to our big question - where to buy in Austin (by Vib)
+- [ ] Housing price demographics, housing price temporal trends: house median prices per zip code, historical housing prices (by Aidin/Karol)
+- [x] Household income data.
+- [ ] School quality demographics - by Keith [https://www.greatschools.org/api/request-api-key/] (by Keith)
+- [ ] Morgage data by Keith/Karol)
+- [ ] Data interpolation (by Aidin)
+- [ ] Data cleansing
+
+### Visualization / 06.08
+#### Gears
+- [ ] Choropleth function (by Aidin)
+- [ ] Scatter Plot (by Aidin)
+- [ ] Bar chart 
+- [ ] Pie chart
+#### Plots
+- [ ]
+
+### Modeling / 06.10
+- [ ] Build/develpe model
+- [ ] Train model
+- [ ] Evaluate
+- [ ] Results
+
+### Presentaion / 06.12
+- [ ] Slides
+- [ ] Scripts
+
+## References
 
 ## License
 TBA
