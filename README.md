@@ -76,7 +76,7 @@ TBA
 - [ ] Housing price demographics, housing price temporal trends: house median prices per zip code, historical housing prices (by Aidin/Karol)
 - [x] Household income data.
 - [ ] School quality demographics - by Keith [https://www.greatschools.org/api/request-api-key/] (by Keith)
-- [ ] Morgage data by Keith/Karol)
+- [x] Morgage data by Keith/Karol)
 - [ ] Data interpolation (by Aidin)
 - [ ] Data cleansing
 
