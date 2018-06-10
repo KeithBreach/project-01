@@ -5,13 +5,14 @@ import matplotlib.ticker as tck
 
 def trend(x, y,
           color="blue",
+          linewidth=2,
           xscale=None,
           yscale="plain",
-          xlabelfontsize=15,
-          ylabelfontsize=15,
-          xtickfontsize=14,
-          ytickfontsize=14,
-          titlefontsize=16,
+          xlabelfontsize=18,
+          ylabelfontsize=18,
+          xtickfontsize=16,
+          ytickfontsize=16,
+          titlefontsize=20,
           xlabel="x",
           ylabel="y",
           title=None,
@@ -46,17 +47,18 @@ def trend(x, y,
         ax.set_ylabel(ylabel, fontsize=ylabelfontsize)
     if title is not None:
         ax.set_title(title, fontsize=titlefontsize)
+
     if yticks is None:
         if yscale == 'log':
             yticks = np.logspace(-4, -1, num=5)
         elif yscale == 'plain':
-            yticks = np.arange(0, 1.1 * max(y), 5)
-        ax.set_yticklabels(yticks, {'fontsize': ytickfontsize})
-        ax.set_yticks(yticks)
+            yticks = np.linspace(0.9*min(y), 1.1 * max(y), 5).astype(int)
 
+    ax.set_yticks(yticks)
+    #ax.set_yticklabels(yticks)
     if xticks is not None:
         ax.set_xticks(xticks[::xtickspace])
-        ax.set_xticklabels(xticks[::xtickspace], {'fontsize': xtickfontsize})
+        ax.set_xticklabels(xticks[::xtickspace])
 
     # add horizontal grid lines
     if grid:
@@ -72,11 +74,13 @@ def trend(x, y,
 
     ax.plot(x, y,
             color=color,
-            linewidth=2,
+            linewidth=linewidth,
             label=label,
             **kwargs,)
-    ax.xaxis.set_tick_params(width=3, length=6)
-    ax.yaxis.set_tick_params(width=3, length=8)
+    ax.xaxis.set_tick_params(width=3, length=6, labelsize=xtickfontsize)
+    ax.yaxis.set_tick_params(width=3, length=8, labelsize=ytickfontsize)
+    ax.tick_params(which="both", direction="out")
+    print(yticks)
 
     return ax
 
@@ -161,8 +165,6 @@ def scatter(x, y,
     # set legend
     if legend and (label is not ""):
         ax.legend()
-
-
 
     # set grid
     ax.grid(
@@ -290,4 +292,5 @@ def bar(height, x=None,
                 horizontalalignment="center",
                 fontsize=labelfontsize,
                 fontweight="bold")
+
     plt.tight_layout()
