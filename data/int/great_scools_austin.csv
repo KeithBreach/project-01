@@ -1,21 +1,47 @@
-,gsId,name,type,gradeRange,enrollment,city,state,districtId,district,districtNCESId,address,phone,fax,website,ncesId,lat,lon,overviewLink,ratingsLink,reviewsLink,schoolStatsLink,gsRating,parentRating
-0,24844,Adult Transition Services,public,12,40,Austin,TX,342,Eanes Independent School District,4817760,"1020 Walsh Tarlton Lane, 
-Austin, TX  78746",(512) 732-9020,(512) 732-9029,,,30.272945,-97.802,https://www.greatschools.org/texas/austin/24844-Adult-Transition-Services/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=24844&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=24844&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/24844,,
-1,9663,Akins High School,public,9-12,2667,Austin,TX,115,Austin Independent School District,4808940,"10701 South 1st Street, 
-Austin, TX  78748",(512) 841-9900,(512) 841-9903,http://austinisd.org/,480894008937,30.148985,-97.80186,https://www.greatschools.org/texas/austin/9663-Akins-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=9663&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=9663&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/9663,4,4
-2,18841,Alternative Learning Center,public,6-12,166,Austin,TX,115,Austin Independent School District,4808940,"900 Neal Street, 
-Austin, TX  78702",(512) 414-2554,(512) 476-2809,http://aisdalc.org/,480894009076,30.268435,-97.71007,https://www.greatschools.org/texas/austin/18841-Alternative-Learning-Center/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=18841&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=18841&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/18841,,5
-3,520,Anderson High School,public,9-12,2224,Austin,TX,115,Austin Independent School District,4808940,"8403 Mesa Drive, 
-Austin, TX  78759",(512) 414-2538,(512) 338-1293,http://andersononline.org/,480894000292,30.37575,-97.75371,https://www.greatschools.org/texas/austin/520-Anderson-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=520&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=520&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/520,8,4
-4,522,Austin High School,public,9-12,2085,Austin,TX,115,Austin Independent School District,4808940,"1715 West Cesar Chavez Street, 
-Austin, TX  78703",(512) 414-2505,(512) 474-7935,,480894000294,30.273598,-97.76814,https://www.greatschools.org/texas/austin/522-Austin-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=522&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=522&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/522,7,4
-5,10849,Austin St Hospital,public,PK-12,20,Austin,TX,115,Austin Independent School District,4808940,"1111 West 6th Street, 
-Austin, TX  78703",(512) 499-1700,(512) 419-2560,,480894005646,30.272375,-97.756516,https://www.greatschools.org/texas/austin/10849-Austin-St-Hospital/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=10849&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=10849&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/10849,,
-6,613,Bowie High School,public,9-12,2871,Austin,TX,115,Austin Independent School District,4808940,"4103 West Slaughter Lane, 
-Austin, TX  78749",(512) 414-5247,(512) 292-0527,,480894006508,30.186369,-97.85873,https://www.greatschools.org/texas/austin/613-Bowie-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=613&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=613&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/613,9,4
-7,537,Crockett High School,public,9-12,1498,Austin,TX,115,Austin Independent School District,4808940,"5601 Manchaca Road, 
-Austin, TX  78745",(512) 414-2532,(512) 447-0489,,480894000310,30.214724,-97.79739,https://www.greatschools.org/texas/austin/537-Crockett-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=537&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=537&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/537,4,4
-8,24678,Dell Children's Medical Center,public,PK-12,3,Austin,TX,115,Austin Independent School District,4808940,"4900 Mueller Boulevard, 
-Austin, TX  78723",(512) 324-0000,,,,30.303455,-97.707344,https://www.greatschools.org/texas/austin/24678-Dell-Children's-Medical-Center/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=24678&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=24678&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/24678,,
-9,18848,Eastside Memorial High School,public,9-12,560,Austin,TX,115,Austin Independent School District,4808940,"1012 Arthur Stiles Road, 
-Austin, TX  78721",(512) 414-5810,(512) 414-6819,eastsidememorial.org,480894012013,30.257113,-97.68206,https://www.greatschools.org/texas/austin/18848-Eastside-Memorial-High-School/?s_cid=gsapi,https://www.greatschools.org/school/rating.page?state=TX&id=18848&s_cid=gsapi,https://www.greatschools.org/school/parentReviews.page?state=TX&id=18848&s_cid=gsapi,https://www.greatschools.org/modperl/achievement/TX/18848,2,4
+Zip Code,parentRating,gsRating
+78617,4.0,2.0
+78701,2.8,1.4
+78702,4.0,3.08
+78703,3.44,5.22
+78704,2.9,2.85
+78705,3.12,1.0
+78709,0.0,0.0
+78712,0.0,0.0
+78713,4.0,0.0
+78715,4.0,0.0
+78717,3.2,4.9
+78721,3.0,3.56
+78722,3.5,2.0
+78723,2.29,2.21
+78724,2.28,3.94
+78725,2.0,3.0
+78726,4.67,5.33
+78727,4.0,4.17
+78728,2.86,3.0
+78729,3.43,5.0
+78730,4.0,8.0
+78731,3.22,2.78
+78732,3.4,7.8
+78733,2.67,6.67
+78734,4.17,3.0
+78735,4.0,1.5
+78736,4.5,0.0
+78737,3.0,0.0
+78738,3.5,8.88
+78739,4.0,8.5
+78741,3.17,4.33
+78744,2.5,3.45
+78745,2.94,2.12
+78746,3.18,4.27
+78747,4.0,3.0
+78748,3.55,3.45
+78749,4.0,6.38
+78750,2.82,5.09
+78751,3.43,0.71
+78752,3.09,2.55
+78753,2.75,3.5
+78754,3.0,3.33
+78756,4.75,1.12
+78757,3.33,4.0
+78758,2.6,3.9
+78759,3.0,5.5
