@@ -287,7 +287,7 @@ def bar(height, x=None,
         for (xi, hi) in zip(x, height):
             ax.text(
                 x=xi, y= hi - min(height) * (1-labelpose),
-                s="{:2.0f}%".format(hi),
+                s="{:333.0f}".format(hi),
                 color=labelcolor,
                 horizontalalignment="center",
                 fontsize=labelfontsize,
