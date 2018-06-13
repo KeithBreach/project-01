@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd3f473-d2ee-4efc-99d7-637be33a58ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Figures/column_toheatmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/int/zip_codes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/int/zip_codes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/11.1.multi.step.sequence.ltsm.forecast.zhvi.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/11.1.multi.step.sequence.ltsm.forecast.zhvi.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/10.2.retreive_zip_year_heatmap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/10.2.retreive_zip_year_heatmap.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
