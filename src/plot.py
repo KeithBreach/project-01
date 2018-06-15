@@ -235,6 +235,9 @@ def bar(height, x=None,
         ticklabels=None,
         xticklabelfontsize=14,
         yticklabelfontsize=14,
+        xtickrotation=0,
+        ytickrotation=0,
+        grid=True,
         ax=None,):
     if ax is None:
         fig, ax = plt.subplots(nrows=1, ncols=1)
@@ -268,20 +271,23 @@ def bar(height, x=None,
         ax.set_ylabel(ylabel)
     ax.xaxis.label.set_size(xlabelfontsize)
     ax.yaxis.label.set_size(ylabelfontsize)
-    ax.grid(True, color="grey", linestyle=":", linewidth=1.5, alpha=0.5)
+    if grid:
+        ax.grid(grid, color="grey", linestyle=":", linewidth=1.5, alpha=0.5)
 
     ax.tick_params(axis="x",
                    direction='out',
                    labelsize=xticklabelfontsize,
                    length=8,
                    width=3,
-                   colors='black',)
+                   colors='black',
+                   labelrotation=xtickrotation)
     ax.tick_params(axis="y",
                    direction='out',
                    labelsize=yticklabelfontsize,
                    length=8,
                    width=3,
-                   colors='black',)
+                   colors='black',
+                   labelrotation=ytickrotation)
 
     if showlabels:
         for (xi, hi) in zip(x, height):
@@ -294,3 +300,4 @@ def bar(height, x=None,
                 fontweight="bold")
 
     plt.tight_layout()
+    return ax
